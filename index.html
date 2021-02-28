@@ -27,7 +27,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse me-md-5" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item ps-4">
                         <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
@@ -47,14 +47,12 @@
                     <li class="nav-item ps-4">
                         <a class="nav-link" href="#">EN <img class="oval" src="images/Oval.svg"></a>
                     </li>
-
                     <li class="nav-item ps-4">
                         <a class="nav-link" href="#">
                             <button class="btn btn-log rounded-pill position-absolute " type="button" id="button-addon1">
                                 <img class="pe-2" src="images/user-lock.svg">الدخول
                             </button></a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -73,7 +71,8 @@
                         <form action="">
                             <div class="input-group mb-3 position-relative ">
                                 <input type="text" class="form-control rounded-pill" placeholder="ابحث عن قاعتك بكل سهولة" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                                <button class="btn btn-primary rounded-pill position-absolute top-0 left-0" type="button" id="button-addon1">البحث الآن</button>
+                                <button class="btn btn-primary rounded-pill
+                                     position-absolute top-0 left-0" type="button" id="button-addon1">البحث الآن</button>
                             </div>
                         </form>
                     </div>
@@ -88,11 +87,33 @@
     </section>
 
     <section class="container d-flex justify-content-center">
-        <img class="rounded float-right" src="images/icons Q2.svg">
+        <img class="rounded float-right" src="images/Layer 2.svg">
     </section>
 
-    <section class="container d-flex justify-content-center">
-        <div class="row border border-primary"></div>
+    <section class="container d-flex justify-content-center border border-light">
+        <div class="row">
+            <h5 class="d-flex justify-content-center mt-3">
+                !حدد تفاصيل مناسبتك ووفر كثييير
+            </h5>
+            <div class="d-flex justify-content-center mt-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                    <button type="button" class="btn btn-outline-secondary">Action</button>
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Bootstrap Bundle with Popper -->
